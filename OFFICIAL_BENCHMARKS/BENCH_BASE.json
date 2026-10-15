@@ -1,0 +1,4124 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "OVERLEAF_PRIOR_DOCS",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ACADEMIA_RD\\OVERLEAF_PRIOR_DOCS\\UPSTREAM_CLONE",
+    "git": {
+      "head": "e039ad26c5bf5422eb57b89fc7e57c75055e631d",
+      "url": "https://github.com/overleaf/overleaf",
+      "branch": "main",
+      "committed_at": "2026-08-28T17:46:45+02:00"
+    }
+  },
+  "metrics": {
+    "files_total": 844,
+    "source_files_scanned": 451,
+    "lines_of_code": 56891,
+    "languages": {
+      ".js": 277,
+      ".patch": 139,
+      ".java": 138,
+      "(none)": 135,
+      ".json": 48,
+      ".sh": 27,
+      ".cjs": 26,
+      ".md": 21,
+      ".ts": 9,
+      ".mjs": 3,
+      ".yml": 3,
+      ".xml": 3,
+      ".conf": 3,
+      ".patch-abs": 3,
+      ".pdf": 2
+    }
+  },
+  "licence": {
+    "spdx": "AGPL-3.0",
+    "class": "B",
+    "source_file": "LICENSE",
+    "redistribution_allowed": false
+  },
+  "dependencies": {
+    "count": 387,
+    "unique": 118,
+    "by_ecosystem": {
+      "npm": 387
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "@eslint/compat",
+        "version": "^2.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@eslint/js",
+        "version": "^10.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/eslint-plugin",
+        "version": "workspace:*",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@prettier/plugin-pug",
+        "version": "^3.4.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/chai",
+        "version": "^4.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/chai-as-promised",
+        "version": "^7.1.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/mocha",
+        "version": "^10.0.6",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/multer",
+        "version": "^2.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "^8.59.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "^8.59.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vitest/eslint-plugin",
+        "version": "^1.5.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-config-prettier",
+        "version": "^10.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-chai-expect",
+        "version": "^4.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-chai-friendly",
+        "version": "^1.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-cypress",
+        "version": "^4.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-import",
+        "version": "^2.32.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-mocha",
+        "version": "^11.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-n",
+        "version": "^18.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-promise",
+        "version": "^7.2.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-unicorn",
+        "version": "^56.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "globals",
+        "version": "^17.6.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "js-yaml",
+        "version": "^4.1.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "3.7.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prettier-plugin-groovy",
+        "version": "0.2.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.9.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@aws-sdk/client-s3",
+        "version": "^3.994.0",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/metrics",
+        "version": "workspace:*",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/object-persistor",
+        "version": "workspace:*",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/settings",
+        "version": "workspace:*",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/stream-utils",
+        "version": "^0.1.0",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/validation-tools",
+        "version": "workspace:*",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bunyan",
+        "version": "^1.8.15",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "express",
+        "version": "4.22.1",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "glob",
+        "version": "^12.0.0",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lodash.once",
+        "version": "^4.1.1",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "node-fetch",
+        "version": "^2.7.0",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "overleaf-editor-core",
+        "version": "workspace:*",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "range-parser",
+        "version": "^1.2.1",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tiny-async-pool",
+        "version": "^1.1.0",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@google-cloud/storage",
+        "version": "^7.19.0",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "6.12.0",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "9.0.2",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon-chai",
+        "version": "^3.7.0",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "streamifier",
+        "version": "^0.1.1",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vitest",
+        "version": "4.1.5",
+        "source_file": "services/filestore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/fetch-utils",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/metrics",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/mongo-utils",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/promise-utils",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/ranges-tracker",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/redis-wrapper",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/settings",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/validation-tools",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/chai-as-promised",
+        "version": "^7.1.8",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "async",
+        "version": "^3.2.5",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bull",
+        "version": "^3.18.0",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bunyan",
+        "version": "^1.8.15",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "diff-match-patch",
+        "version": "overleaf/diff-match-patch#89805f9c671a77a263fc53461acd62aa7498f688",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "express",
+        "version": "4.22.1",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "^4.18.1",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "minimist",
+        "version": "^1.2.8",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "6.12.0",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mongodb-legacy",
+        "version": "6.1.3",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "overleaf-editor-core",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/migrations",
+        "version": "workspace:*",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/ioredis",
+        "version": "^4.28.10",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/mocha",
+        "version": "^10.0.6",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "basic-auth",
+        "version": "^2.0.1",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "cluster-key-slot",
+        "version": "^1.0.5",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sandboxed-module",
+        "version": "^2.0.4",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "^9.2.4",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon-chai",
+        "version": "^3.7.0",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "timekeeper",
+        "version": "^2.0.0",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tsscmp",
+        "version": "^1.0.6",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "services/document-updater/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/fetch-utils",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/metrics",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/mongo-utils",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/object-persistor",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/promise-utils",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/ranges-tracker",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/settings",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/stream-utils",
+        "version": "^0.1.0",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/validation-tools",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "async",
+        "version": "^3.2.5",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bunyan",
+        "version": "^1.8.15",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "express",
+        "version": "4.22.1",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "^4.18.1",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "6.12.0",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mongodb-legacy",
+        "version": "6.1.3",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "p-map",
+        "version": "^4.0.0",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@google-cloud/storage",
+        "version": "^7.19.0",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/migrations",
+        "version": "workspace:*",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "~9.0.2",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon-chai",
+        "version": "^3.7.0",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vitest",
+        "version": "4.1.5",
+        "source_file": "services/docstore/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/fetch-utils",
+        "version": "workspace:*",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/metrics",
+        "version": "workspace:*",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/promise-utils",
+        "version": "workspace:*",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/settings",
+        "version": "workspace:*",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/stream-utils",
+        "version": "workspace:*",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/validation-tools",
+        "version": "workspace:*",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "archiver",
+        "version": "5.3.2",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "async",
+        "version": "^3.2.5",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bunyan",
+        "version": "^1.8.15",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "dockerode",
+        "version": "^4.0.9",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "express",
+        "version": "4.22.1",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "^4.18.1",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "minimatch",
+        "version": "^10.2.5",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "multer",
+        "version": "2.2.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "overleaf-editor-core",
+        "version": "workspace:*",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "p-limit",
+        "version": "^3.1.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "send",
+        "version": "^0.19.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tar-fs",
+        "version": "^3.1.1",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "workerpool",
+        "version": "^6.1.5",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@istanbuljs/esm-loader-hook",
+        "version": "^0.3.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "form-data",
+        "version": "^4.0.5",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "node-fetch",
+        "version": "^2.7.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "nyc",
+        "version": "^17.1.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "~9.0.1",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon-chai",
+        "version": "^3.7.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "timekeeper",
+        "version": "2.2.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vitest",
+        "version": "4.1.5",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "yauzl",
+        "version": "^3.4.0",
+        "source_file": "services/clsi/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "*",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/metrics",
+        "version": "*",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/mongo-utils",
+        "version": "*",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/promise-utils",
+        "version": "*",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/settings",
+        "version": "*",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/validation-tools",
+        "version": "workspace:*",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "async",
+        "version": "^3.2.5",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "express",
+        "version": "4.22.1",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "6.12.0",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/migrations",
+        "version": "workspace:*",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "acorn",
+        "version": "^7.1.1",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "request",
+        "version": "2.88.2",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "^9.2.4",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "timekeeper",
+        "version": "^2.2.0",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "services/chat/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "libraries/validation-tools/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "^6.12.0",
+        "source_file": "libraries/validation-tools/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "zod",
+        "version": "^4.1.8",
+        "source_file": "libraries/validation-tools/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "zod-validation-error",
+        "version": "^4.0.1",
+        "source_file": "libraries/validation-tools/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "source_file": "libraries/validation-tools/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/express",
+        "version": "4.17.23",
+        "source_file": "libraries/validation-tools/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/validation-tools/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/validation-tools/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/validation-tools/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vitest",
+        "version": "4.1.5",
+        "source_file": "libraries/validation-tools/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/stream-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/stream-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "source_file": "libraries/stream-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/stream-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/stream-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/stream-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/stream-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/stream-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/settings/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/settings/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/settings/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/settings/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/settings/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/settings/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "async",
+        "version": "^3.2.5",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ioredis",
+        "version": "~4.27.1",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sandboxed-module",
+        "version": "^2.0.4",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "^9.2.4",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/metrics",
+        "version": "workspace:*",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "libraries/redis-wrapper/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/validation-tools",
+        "version": "workspace:*",
+        "source_file": "libraries/ranges-tracker/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/ranges-tracker/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/ranges-tracker/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "core-js",
+        "version": "~3.46.0",
+        "source_file": "libraries/ranges-tracker/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/ranges-tracker/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/ranges-tracker/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/ranges-tracker/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/ranges-tracker/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/ranges-tracker/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "p-limit",
+        "version": "^2.3.0",
+        "source_file": "libraries/promise-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/promise-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.10",
+        "source_file": "libraries/promise-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "source_file": "libraries/promise-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/promise-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/promise-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/promise-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/promise-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/promise-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/validation-tools",
+        "version": "workspace:*",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "check-types",
+        "version": "^5.1.0",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "diff-match-patch",
+        "version": "overleaf/diff-match-patch#89805f9c671a77a263fc53461acd62aa7498f688",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "^4.18.1",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "p-map",
+        "version": "^4.0.0",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "path-browserify",
+        "version": "^1.0.1",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "utf-8-validate",
+        "version": "^5.0.4",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/check-types",
+        "version": "^7.3.7",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/lodash",
+        "version": "^4.17.24",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/mocha",
+        "version": "^10.0.6",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/path-browserify",
+        "version": "^1.0.3",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^3.3.0",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "^9.2.4",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/overleaf-editor-core/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@aws-sdk/client-s3",
+        "version": "^3.994.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@aws-sdk/lib-storage",
+        "version": "^3.994.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@aws-sdk/node-http-handler",
+        "version": "^3.374.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@aws-sdk/s3-request-presigner",
+        "version": "^3.994.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@google-cloud/storage",
+        "version": "^7.19.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/metrics",
+        "version": "workspace:*",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/stream-utils",
+        "version": "workspace:*",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fast-crc32c",
+        "version": "overleaf/node-fast-crc32c#aae6b2a4c7a7a159395df9cc6c38dfde702d6f51",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "glob",
+        "version": "^12.0.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "range-parser",
+        "version": "^1.2.1",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tiny-async-pool",
+        "version": "^1.1.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/lodash",
+        "version": "^4.17.24",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "6.12.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sandboxed-module",
+        "version": "^2.0.4",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "^9.2.4",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon-chai",
+        "version": "^3.7.0",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/object-persistor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/chai",
+        "version": "^4.3.0",
+        "source_file": "libraries/o-error/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/o-error/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/o-error/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/o-error/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/o-error/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/o-error/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/o-error/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/o-error/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "6.12.0",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mongodb-legacy",
+        "version": "6.1.3",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sandboxed-module",
+        "version": "^2.0.4",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "^9.2.4",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon-chai",
+        "version": "^3.7.0",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/mongo-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@google-cloud/opentelemetry-cloud-trace-exporter",
+        "version": "^3.0.0",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@google-cloud/profiler",
+        "version": "^7.0.0",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@opentelemetry/api",
+        "version": "^1.9.1",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@opentelemetry/auto-instrumentations-node",
+        "version": "^0.78.0",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@opentelemetry/exporter-trace-otlp-http",
+        "version": "^0.220.0",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@opentelemetry/resources",
+        "version": "^2.9.0",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@opentelemetry/sdk-node",
+        "version": "^0.220.0",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@opentelemetry/semantic-conventions",
+        "version": "^1.41.1",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "compression",
+        "version": "^1.7.4",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prom-client",
+        "version": "^14.1.1",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "yn",
+        "version": "^3.1.1",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bunyan",
+        "version": "^1.0.0",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sandboxed-module",
+        "version": "^2.0.4",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "^9.2.4",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "source_file": "libraries/metrics/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@google-cloud/logging-bunyan",
+        "version": "^5.1.0",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/fetch-utils",
+        "version": "workspace:*",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/validation-tools",
+        "version": "workspace:*",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bunyan",
+        "version": "^1.8.14",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sandboxed-module",
+        "version": "^2.0.4",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "^9.2.4",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon-chai",
+        "version": "^3.7.0",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/metrics",
+        "version": "workspace:*",
+        "source_file": "libraries/logger/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "^4.18.1",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "node-fetch",
+        "version": "^2.7.0",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/lodash",
+        "version": "^4.17.24",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node-fetch",
+        "version": "^2.6.13",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "express",
+        "version": "4.22.1",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "selfsigned",
+        "version": "^5.5.0",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vitest",
+        "version": "4.1.5",
+        "source_file": "libraries/fetch-utils/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "^4.18.1",
+        "source_file": "libraries/eslint-plugin/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@eslint/json",
+        "version": "^2.0.0",
+        "source_file": "libraries/eslint-plugin/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/eslint-plugin/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "^8.59.4",
+        "source_file": "libraries/eslint-plugin/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/eslint-plugin/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/eslint-plugin/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vitest",
+        "version": "4.1.5",
+        "source_file": "libraries/eslint-plugin/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "cypress-multi-reporters",
+        "version": "^2.0.5",
+        "source_file": "libraries/cypress-pnp-reporter/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/cypress-pnp-reporter/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/cypress-pnp-reporter/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/cypress-pnp-reporter/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/cypress-pnp-reporter/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/cypress-pnp-reporter/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/cypress-pnp-reporter/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/cypress-pnp-reporter/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "^4.18.1",
+        "source_file": "libraries/access-token-encryptor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "source_file": "libraries/access-token-encryptor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "^4.3.6",
+        "source_file": "libraries/access-token-encryptor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "source_file": "libraries/access-token-encryptor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "source_file": "libraries/access-token-encryptor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "source_file": "libraries/access-token-encryptor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "source_file": "libraries/access-token-encryptor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "source_file": "libraries/access-token-encryptor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sandboxed-module",
+        "version": "^2.0.4",
+        "source_file": "libraries/access-token-encryptor/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.4",
+        "source_file": "libraries/access-token-encryptor/package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 95,
+    "files_with_findings": 87,
+    "severity": {
+      "high": 5,
+      "medium": 4,
+      "low": 86
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 3,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "libraries/overleaf-editor-core/lib/blob_utils.js",
+            "line": 43,
+            "cwe": "CWE-327",
+            "snippet": "* The git blob hash: sha1(\"blob \" + byteLength + \"\\0\" + content)."
+          },
+          {
+            "severity": "medium",
+            "file": "libraries/object-persistor/src/PerProjectEncryptedS3Persistor.js",
+            "line": 410,
+            "cwe": "CWE-327",
+            "snippet": "// The ETag in object metadata is not the MD5 content hash, skip the HEAD request."
+          },
+          {
+            "severity": "medium",
+            "file": "libraries/object-persistor/src/S3Md5Middleware.js",
+            "line": 4,
+            "cwe": "CWE-327",
+            "snippet": "* Creates an S3 client that uses MD5 checksums for DeleteObjects operations"
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 5,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "services/document-updater/scripts/check_redis_mongo_sync_state.js",
+            "line": 61,
+            "cwe": "CWE-95",
+            "snippet": "const ok = await RedisManager.rclient.eval("
+          },
+          {
+            "severity": "high",
+            "file": "services/document-updater/app/js/RealTimeRedisManager.js",
+            "line": 48,
+            "cwe": "CWE-95",
+            "snippet": "multi.exec(function (error, replys) {"
+          },
+          {
+            "severity": "high",
+            "file": "server-ce/init_scripts/100_generate_secrets.sh",
+            "line": 25,
+            "cwe": "CWE-78",
+            "snippet": "SECRET=$(generate_secret)"
+          },
+          {
+            "severity": "high",
+            "file": "libraries/redis-wrapper/RedisLocker.js",
+            "line": 220,
+            "cwe": "CWE-95",
+            "snippet": "this.rclient.eval("
+          },
+          {
+            "severity": "high",
+            "file": "libraries/redis-wrapper/RedisWebLocker.js",
+            "line": 187,
+            "cwe": "CWE-95",
+            "snippet": "this.rclient.eval(this.unlockScript, 1, key, lockValue, (err, result) => {"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 64,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "services/git-bridge/src/main/java/uk/ac/ic/wlgitbridge/snapshot/servermock/state/SnapshotAPIState.java",
+            "line": 127,
+            "cwe": "CWE-",
+            "snippet": "\"\\\\\\\\documentclass[a4paper]{article}\\\\n\\\\n\\\\\\\\usepackage[english]{babel}\\\\n\\\\\\\\usepackage[utf8]{inputenc}\\\\n\\\\\\\\usepackage{graphicx}\\\\n\\\\\\\\usepackage{fullpage}\\\\n\\\\\\\\usepackage{lis"
+          },
+          {
+            "severity": "low",
+            "file": "services/git-bridge/src/main/java/uk/ac/ic/wlgitbridge/bridge/Bridge.java",
+            "line": 625,
+            "cwe": "CWE-",
+            "snippet": "// TODO: in case crashes around here, add an"
+          },
+          {
+            "severity": "low",
+            "file": "services/git-bridge/src/main/java/uk/ac/ic/wlgitbridge/bridge/swap/job/SwapJobImpl.java",
+            "line": 135,
+            "cwe": "CWE-",
+            "snippet": "// NOTE: this is something of a hack. If a project fails to swap we get stuck in a"
+          },
+          {
+            "severity": "low",
+            "file": "services/git-bridge/src/main/java/uk/ac/ic/wlgitbridge/bridge/repo/FSGitRepoStore.java",
+            "line": 81,
+            "cwe": "CWE-",
+            "snippet": "/* TODO: Perhaps we should just delete bad directories on the fly. */"
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app.js",
+            "line": 141,
+            "cwe": "CWE-",
+            "snippet": "app.post('/project/:project_id/doc/:doc_id/append', HttpController.appendToDoc)"
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/DeleteQueueManager.js",
+            "line": 4,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/DispatchManager.js",
+            "line": 4,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/DocumentManager.js",
+            "line": 144,
+            "cwe": "CWE-",
+            "snippet": "async appendToDoc("
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/HttpController.js",
+            "line": 155,
+            "cwe": "CWE-",
+            "snippet": "// TODO(24596): tc support for history-ot"
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/LoggerSerializers.js",
+            "line": 4,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/Metrics.js",
+            "line": 1,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/RateLimitManager.js",
+            "line": 4,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/RealTimeRedisManager.js",
+            "line": 4,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/ShareJsDB.js",
+            "line": 4,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/ShareJsUpdateManager.js",
+            "line": 4,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/SnapshotManager.js",
+            "line": 4,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/UpdateKeys.js",
+            "line": 1,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/Utils.js",
+            "line": 106,
+            "cwe": "CWE-",
+            "snippet": "* TODO: remove this hack and remove all \"source\" references"
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/sharejs/types/count.js",
+            "line": 1,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/sharejs/types/helpers.js",
+            "line": 5,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/sharejs/types/index.js",
+            "line": 1,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/sharejs/types/json-api.js",
+            "line": 4,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/sharejs/types/json.js",
+            "line": 6,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/sharejs/types/model.js",
+            "line": 6,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/sharejs/types/simple.js",
+            "line": 1,
+            "cwe": "CWE-",
+            "snippet": "// TODO: This file was created by bulk-decaffeinate."
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 21,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "services/git-bridge/src/main/java/uk/ac/ic/wlgitbridge/server/GceMetadataLogLevelChecker.java",
+            "line": 22,
+            "cwe": "CWE-319",
+            "snippet": "\"http://metadata.google.internal/computeMetadata/v1/project/attributes/\";"
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/scripts/check_redis_mongo_sync_state.js",
+            "line": 81,
+            "cwe": "CWE-319",
+            "snippet": "`http://${process.env.DOCSTORE_HOST || '127.0.0.1'}:3016/project/${projectId}/doc/${docId}`,"
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/config/settings.defaults.js",
+            "line": 17,
+            "cwe": "CWE-319",
+            "snippet": "url: `http://${"
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/UpdateManager.js",
+            "line": 347,
+            "cwe": "CWE-319",
+            "snippet": "// From Wikipedia (http://en.wikipedia.org/wiki/Plane_(Unicode)#Basic_Multilingual_Plane):"
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/sharejs/types/json.js",
+            "line": 266,
+            "cwe": "CWE-319",
+            "snippet": "// http://jsperf.com/cloning-an-object/12"
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/sharejs/types/text-tp2.js",
+            "line": 19,
+            "cwe": "CWE-319",
+            "snippet": "// http://code.google.com/p/lightwave/source/browse/trunk/experimental/ot/README"
+          },
+          {
+            "severity": "low",
+            "file": "services/document-updater/app/js/sharejs/types/text.js",
+            "line": 164,
+            "cwe": "CWE-319",
+            "snippet": "// http://perfectionkills.com/instanceof-considered-harmful-or-how-to-write-a-robust-isarray/"
+          },
+          {
+            "severity": "low",
+            "file": "services/docstore/app/js/HealthChecker.js",
+            "line": 16,
+            "cwe": "CWE-319",
+            "snippet": "const url = `http://127.0.0.1:${port}/project/${projectId}/doc/${docId}`"
+          },
+          {
+            "severity": "low",
+            "file": "server-ce/init_scripts/100_set_docker_host_ipaddress.sh",
+            "line": 4,
+            "cwe": "CWE-319",
+            "snippet": "# See the bottom of http://stackoverflow.com/questions/24319662/from-inside-of-a-docker-container-how-do-i-connect-to-the-localhost-of-the-mach"
+          },
+          {
+            "severity": "low",
+            "file": "server-ce/cron/deactivate-projects.sh",
+            "line": 17,
+            "cwe": "CWE-319",
+            "snippet": "WEB_URL='http://127.0.0.1:3000'"
+          },
+          {
+            "severity": "low",
+            "file": "server-ce/cron/delete-projects.sh",
+            "line": 17,
+            "cwe": "CWE-319",
+            "snippet": "WEB_URL='http://127.0.0.1:3000'"
+          },
+          {
+            "severity": "low",
+            "file": "server-ce/cron/delete-users.sh",
+            "line": 17,
+            "cwe": "CWE-319",
+            "snippet": "WEB_URL='http://127.0.0.1:3000'"
+          },
+          {
+            "severity": "low",
+            "file": "server-ce/cron/project-history-periodic-flush.sh",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "PROJECT_HISTORY_URL='http://127.0.0.1:3054'"
+          },
+          {
+            "severity": "low",
+            "file": "server-ce/cron/project-history-retry-hard.sh",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "PROJECT_HISTORY_URL='http://127.0.0.1:3054'"
+          },
+          {
+            "severity": "low",
+            "file": "server-ce/cron/project-history-retry-soft.sh",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "PROJECT_HISTORY_URL='http://127.0.0.1:3054'"
+          },
+          {
+            "severity": "low",
+            "file": "server-ce/config/settings.js",
+            "line": 63,
+            "cwe": "CWE-319",
+            "snippet": "// Overleaf Community Edition's main persistent data store is MongoDB (http://www.mongodb.org/)"
+          },
+          {
+            "severity": "low",
+            "file": "libraries/redis-wrapper/RedisWebLocker.js",
+            "line": 46,
+            "cwe": "CWE-319",
+            "snippet": "// http://redis.io/topics/distlock#correct-implementation-with-a-single-instance"
+          },
+          {
+            "severity": "low",
+            "file": "libraries/overleaf-editor-core/lib/file_map.js",
+            "line": 94,
+            "cwe": "CWE-319",
+            "snippet": "// http://ryanmorr.com/true-hash-maps-in-javascript/"
+          },
+          {
+            "severity": "low",
+            "file": "libraries/object-persistor/src/ProjectKey.js",
+            "line": 4,
+            "cwe": "CWE-319",
+            "snippet": "// The advice in http://docs.aws.amazon.com/AmazonS3/latest/dev/"
+          },
+          {
+            "severity": "low",
+            "file": "libraries/metrics/initialize.js",
+            "line": 58,
+            "cwe": "CWE-319",
+            "snippet": "url: `http://${process.env.JAEGER_HOST || 'jaeger'}:4318/v1/traces`,"
+          },
+          {
+            "severity": "low",
+            "file": "libraries/logger/log-level-checker.js",
+            "line": 54,
+            "cwe": "CWE-319",
+            "snippet": "const uri = `http://metadata.google.internal/computeMetadata/v1/project/attributes/${this.logger.fields.name}-setLogLevelEndTime`"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "services/filestore/app/js/FileController.js",
+            "line": 58,
+            "cwe": "CWE-601",
+            "snippet": "return res.redirect(redirectUrl)"
+          },
+          {
+            "severity": "medium",
+            "file": "libraries/fetch-utils/index.ts",
+            "line": 346,
+            "cwe": "CWE-918",
+            "snippet": "response = await fetch(url, fetchOpts)"
+          }
+        ]
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:16c14850-c294-5363-bb28-dbe84e886a3b",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T01:06:07Z",
+      "component": {
+        "type": "application",
+        "name": "OVERLEAF_PRIOR_DOCS",
+        "version": "e039ad26c5bf",
+        "bom-ref": "pkg:generic/anticloud/OVERLEAF_PRIOR_DOCS@e039ad26c5bf",
+        "purl": "pkg:generic/anticloud/OVERLEAF_PRIOR_DOCS@e039ad26c5bf",
+        "licenses": [
+          {
+            "license": {
+              "id": "AGPL-3.0"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "e039ad26c5bf5422eb57b89fc7e57c75055e631d"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/overleaf/overleaf"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@eslint/compat",
+        "version": "^2.1.0",
+        "purl": "pkg:npm/@eslint/compat@^2.1.0",
+        "bom-ref": "npm/@eslint/compat@^2.1.0"
+      },
+      {
+        "type": "library",
+        "name": "@eslint/js",
+        "version": "^10.0.1",
+        "purl": "pkg:npm/@eslint/js@^10.0.1",
+        "bom-ref": "npm/@eslint/js@^10.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/eslint-plugin",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/eslint-plugin@workspace:*",
+        "bom-ref": "npm/@overleaf/eslint-plugin@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@prettier/plugin-pug",
+        "version": "^3.4.0",
+        "purl": "pkg:npm/@prettier/plugin-pug@^3.4.0",
+        "bom-ref": "npm/@prettier/plugin-pug@^3.4.0"
+      },
+      {
+        "type": "library",
+        "name": "@types/chai",
+        "version": "^4.3.0",
+        "purl": "pkg:npm/@types/chai@^4.3.0",
+        "bom-ref": "npm/@types/chai@^4.3.0"
+      },
+      {
+        "type": "library",
+        "name": "@types/chai-as-promised",
+        "version": "^7.1.8",
+        "purl": "pkg:npm/@types/chai-as-promised@^7.1.8",
+        "bom-ref": "npm/@types/chai-as-promised@^7.1.8"
+      },
+      {
+        "type": "library",
+        "name": "@types/mocha",
+        "version": "^10.0.6",
+        "purl": "pkg:npm/@types/mocha@^10.0.6",
+        "bom-ref": "npm/@types/mocha@^10.0.6"
+      },
+      {
+        "type": "library",
+        "name": "@types/multer",
+        "version": "^2.1.0",
+        "purl": "pkg:npm/@types/multer@^2.1.0",
+        "bom-ref": "npm/@types/multer@^2.1.0"
+      },
+      {
+        "type": "library",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "^8.59.4",
+        "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^8.59.4",
+        "bom-ref": "npm/@typescript-eslint/eslint-plugin@^8.59.4"
+      },
+      {
+        "type": "library",
+        "name": "@typescript-eslint/parser",
+        "version": "^8.59.4",
+        "purl": "pkg:npm/@typescript-eslint/parser@^8.59.4",
+        "bom-ref": "npm/@typescript-eslint/parser@^8.59.4"
+      },
+      {
+        "type": "library",
+        "name": "@vitest/eslint-plugin",
+        "version": "^1.5.0",
+        "purl": "pkg:npm/@vitest/eslint-plugin@^1.5.0",
+        "bom-ref": "npm/@vitest/eslint-plugin@^1.5.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint",
+        "version": "^10.4.0",
+        "purl": "pkg:npm/eslint@^10.4.0",
+        "bom-ref": "npm/eslint@^10.4.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-config-prettier",
+        "version": "^10.0.1",
+        "purl": "pkg:npm/eslint-config-prettier@^10.0.1",
+        "bom-ref": "npm/eslint-config-prettier@^10.0.1"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-chai-expect",
+        "version": "^4.0.0",
+        "purl": "pkg:npm/eslint-plugin-chai-expect@^4.0.0",
+        "bom-ref": "npm/eslint-plugin-chai-expect@^4.0.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-chai-friendly",
+        "version": "^1.1.0",
+        "purl": "pkg:npm/eslint-plugin-chai-friendly@^1.1.0",
+        "bom-ref": "npm/eslint-plugin-chai-friendly@^1.1.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-cypress",
+        "version": "^4.1.0",
+        "purl": "pkg:npm/eslint-plugin-cypress@^4.1.0",
+        "bom-ref": "npm/eslint-plugin-cypress@^4.1.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-import",
+        "version": "^2.32.0",
+        "purl": "pkg:npm/eslint-plugin-import@^2.32.0",
+        "bom-ref": "npm/eslint-plugin-import@^2.32.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-mocha",
+        "version": "^11.0.0",
+        "purl": "pkg:npm/eslint-plugin-mocha@^11.0.0",
+        "bom-ref": "npm/eslint-plugin-mocha@^11.0.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-n",
+        "version": "^18.0.0",
+        "purl": "pkg:npm/eslint-plugin-n@^18.0.0",
+        "bom-ref": "npm/eslint-plugin-n@^18.0.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-promise",
+        "version": "^7.2.1",
+        "purl": "pkg:npm/eslint-plugin-promise@^7.2.1",
+        "bom-ref": "npm/eslint-plugin-promise@^7.2.1"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-unicorn",
+        "version": "^56.0.0",
+        "purl": "pkg:npm/eslint-plugin-unicorn@^56.0.0",
+        "bom-ref": "npm/eslint-plugin-unicorn@^56.0.0"
+      },
+      {
+        "type": "library",
+        "name": "globals",
+        "version": "^17.6.0",
+        "purl": "pkg:npm/globals@^17.6.0",
+        "bom-ref": "npm/globals@^17.6.0"
+      },
+      {
+        "type": "library",
+        "name": "js-yaml",
+        "version": "^4.1.1",
+        "purl": "pkg:npm/js-yaml@^4.1.1",
+        "bom-ref": "npm/js-yaml@^4.1.1"
+      },
+      {
+        "type": "library",
+        "name": "prettier",
+        "version": "3.7.4",
+        "purl": "pkg:npm/prettier@3.7.4",
+        "bom-ref": "npm/prettier@3.7.4"
+      },
+      {
+        "type": "library",
+        "name": "prettier-plugin-groovy",
+        "version": "0.2.1",
+        "purl": "pkg:npm/prettier-plugin-groovy@0.2.1",
+        "bom-ref": "npm/prettier-plugin-groovy@0.2.1"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": "^5.9.3",
+        "purl": "pkg:npm/typescript@^5.9.3",
+        "bom-ref": "npm/typescript@^5.9.3"
+      },
+      {
+        "type": "library",
+        "name": "@aws-sdk/client-s3",
+        "version": "^3.994.0",
+        "purl": "pkg:npm/@aws-sdk/client-s3@^3.994.0",
+        "bom-ref": "npm/@aws-sdk/client-s3@^3.994.0"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/logger",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/logger@workspace:*",
+        "bom-ref": "npm/@overleaf/logger@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/metrics",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/metrics@workspace:*",
+        "bom-ref": "npm/@overleaf/metrics@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/o-error",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/o-error@workspace:*",
+        "bom-ref": "npm/@overleaf/o-error@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/object-persistor",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/object-persistor@workspace:*",
+        "bom-ref": "npm/@overleaf/object-persistor@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/settings",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/settings@workspace:*",
+        "bom-ref": "npm/@overleaf/settings@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/stream-utils",
+        "version": "^0.1.0",
+        "purl": "pkg:npm/@overleaf/stream-utils@^0.1.0",
+        "bom-ref": "npm/@overleaf/stream-utils@^0.1.0"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/validation-tools",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/validation-tools@workspace:*",
+        "bom-ref": "npm/@overleaf/validation-tools@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "bunyan",
+        "version": "^1.8.15",
+        "purl": "pkg:npm/bunyan@^1.8.15",
+        "bom-ref": "npm/bunyan@^1.8.15"
+      },
+      {
+        "type": "library",
+        "name": "express",
+        "version": "4.22.1",
+        "purl": "pkg:npm/express@4.22.1",
+        "bom-ref": "npm/express@4.22.1"
+      },
+      {
+        "type": "library",
+        "name": "glob",
+        "version": "^12.0.0",
+        "purl": "pkg:npm/glob@^12.0.0",
+        "bom-ref": "npm/glob@^12.0.0"
+      },
+      {
+        "type": "library",
+        "name": "lodash.once",
+        "version": "^4.1.1",
+        "purl": "pkg:npm/lodash.once@^4.1.1",
+        "bom-ref": "npm/lodash.once@^4.1.1"
+      },
+      {
+        "type": "library",
+        "name": "node-fetch",
+        "version": "^2.7.0",
+        "purl": "pkg:npm/node-fetch@^2.7.0",
+        "bom-ref": "npm/node-fetch@^2.7.0"
+      },
+      {
+        "type": "library",
+        "name": "overleaf-editor-core",
+        "version": "workspace:*",
+        "purl": "pkg:npm/overleaf-editor-core@workspace:*",
+        "bom-ref": "npm/overleaf-editor-core@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "range-parser",
+        "version": "^1.2.1",
+        "purl": "pkg:npm/range-parser@^1.2.1",
+        "bom-ref": "npm/range-parser@^1.2.1"
+      },
+      {
+        "type": "library",
+        "name": "tiny-async-pool",
+        "version": "^1.1.0",
+        "purl": "pkg:npm/tiny-async-pool@^1.1.0",
+        "bom-ref": "npm/tiny-async-pool@^1.1.0"
+      },
+      {
+        "type": "library",
+        "name": "@google-cloud/storage",
+        "version": "^7.19.0",
+        "purl": "pkg:npm/@google-cloud/storage@^7.19.0",
+        "bom-ref": "npm/@google-cloud/storage@^7.19.0"
+      },
+      {
+        "type": "library",
+        "name": "@types/node",
+        "version": "^24.5.2",
+        "purl": "pkg:npm/@types/node@^24.5.2",
+        "bom-ref": "npm/@types/node@^24.5.2"
+      },
+      {
+        "type": "library",
+        "name": "chai",
+        "version": "^4.3.6",
+        "purl": "pkg:npm/chai@^4.3.6",
+        "bom-ref": "npm/chai@^4.3.6"
+      },
+      {
+        "type": "library",
+        "name": "chai-as-promised",
+        "version": "^7.1.1",
+        "purl": "pkg:npm/chai-as-promised@^7.1.1",
+        "bom-ref": "npm/chai-as-promised@^7.1.1"
+      },
+      {
+        "type": "library",
+        "name": "mocha",
+        "version": "^11.1.0",
+        "purl": "pkg:npm/mocha@^11.1.0",
+        "bom-ref": "npm/mocha@^11.1.0"
+      },
+      {
+        "type": "library",
+        "name": "mocha-junit-reporter",
+        "version": "^2.2.1",
+        "purl": "pkg:npm/mocha-junit-reporter@^2.2.1",
+        "bom-ref": "npm/mocha-junit-reporter@^2.2.1"
+      },
+      {
+        "type": "library",
+        "name": "mocha-multi-reporters",
+        "version": "^1.5.1",
+        "purl": "pkg:npm/mocha-multi-reporters@^1.5.1",
+        "bom-ref": "npm/mocha-multi-reporters@^1.5.1"
+      },
+      {
+        "type": "library",
+        "name": "mongodb",
+        "version": "6.12.0",
+        "purl": "pkg:npm/mongodb@6.12.0",
+        "bom-ref": "npm/mongodb@6.12.0"
+      },
+      {
+        "type": "library",
+        "name": "sinon",
+        "version": "9.0.2",
+        "purl": "pkg:npm/sinon@9.0.2",
+        "bom-ref": "npm/sinon@9.0.2"
+      },
+      {
+        "type": "library",
+        "name": "sinon-chai",
+        "version": "^3.7.0",
+        "purl": "pkg:npm/sinon-chai@^3.7.0",
+        "bom-ref": "npm/sinon-chai@^3.7.0"
+      },
+      {
+        "type": "library",
+        "name": "streamifier",
+        "version": "^0.1.1",
+        "purl": "pkg:npm/streamifier@^0.1.1",
+        "bom-ref": "npm/streamifier@^0.1.1"
+      },
+      {
+        "type": "library",
+        "name": "vitest",
+        "version": "4.1.5",
+        "purl": "pkg:npm/vitest@4.1.5",
+        "bom-ref": "npm/vitest@4.1.5"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/fetch-utils",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/fetch-utils@workspace:*",
+        "bom-ref": "npm/@overleaf/fetch-utils@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/mongo-utils",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/mongo-utils@workspace:*",
+        "bom-ref": "npm/@overleaf/mongo-utils@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/promise-utils",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/promise-utils@workspace:*",
+        "bom-ref": "npm/@overleaf/promise-utils@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/ranges-tracker",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/ranges-tracker@workspace:*",
+        "bom-ref": "npm/@overleaf/ranges-tracker@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/redis-wrapper",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/redis-wrapper@workspace:*",
+        "bom-ref": "npm/@overleaf/redis-wrapper@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "async",
+        "version": "^3.2.5",
+        "purl": "pkg:npm/async@^3.2.5",
+        "bom-ref": "npm/async@^3.2.5"
+      },
+      {
+        "type": "library",
+        "name": "bull",
+        "version": "^3.18.0",
+        "purl": "pkg:npm/bull@^3.18.0",
+        "bom-ref": "npm/bull@^3.18.0"
+      },
+      {
+        "type": "library",
+        "name": "diff-match-patch",
+        "version": "overleaf/diff-match-patch#89805f9c671a77a263fc53461acd62aa7498f688",
+        "purl": "pkg:npm/diff-match-patch@overleaf/diff-match-patch#89805f9c671a77a263fc53461acd62aa7498f688",
+        "bom-ref": "npm/diff-match-patch@overleaf/diff-match-patch#89805f9c671a77a263fc53461acd62aa7498f688"
+      },
+      {
+        "type": "library",
+        "name": "lodash",
+        "version": "^4.18.1",
+        "purl": "pkg:npm/lodash@^4.18.1",
+        "bom-ref": "npm/lodash@^4.18.1"
+      },
+      {
+        "type": "library",
+        "name": "minimist",
+        "version": "^1.2.8",
+        "purl": "pkg:npm/minimist@^1.2.8",
+        "bom-ref": "npm/minimist@^1.2.8"
+      },
+      {
+        "type": "library",
+        "name": "mongodb-legacy",
+        "version": "6.1.3",
+        "purl": "pkg:npm/mongodb-legacy@6.1.3",
+        "bom-ref": "npm/mongodb-legacy@6.1.3"
+      },
+      {
+        "type": "library",
+        "name": "@overleaf/migrations",
+        "version": "workspace:*",
+        "purl": "pkg:npm/@overleaf/migrations@workspace:*",
+        "bom-ref": "npm/@overleaf/migrations@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "@types/ioredis",
+        "version": "^4.28.10",
+        "purl": "pkg:npm/@types/ioredis@^4.28.10",
+        "bom-ref": "npm/@types/ioredis@^4.28.10"
+      },
+      {
+        "type": "library",
+        "name": "basic-auth",
+        "version": "^2.0.1",
+        "purl": "pkg:npm/basic-auth@^2.0.1",
+        "bom-ref": "npm/basic-auth@^2.0.1"
+      },
+      {
+        "type": "library",
+        "name": "cluster-key-slot",
+        "version": "^1.0.5",
+        "purl": "pkg:npm/cluster-key-slot@^1.0.5",
+        "bom-ref": "npm/cluster-key-slot@^1.0.5"
+      },
+      {
+        "type": "library",
+        "name": "sandboxed-module",
+        "version": "^2.0.4",
+        "purl": "pkg:npm/sandboxed-module@^2.0.4",
+        "bom-ref": "npm/sandboxed-module@^2.0.4"
+      },
+      {
+        "type": "library",
+        "name": "timekeeper",
+        "version": "^2.0.0",
+        "purl": "pkg:npm/timekeeper@^2.0.0",
+        "bom-ref": "npm/timekeeper@^2.0.0"
+      },
+      {
+        "type": "library",
+        "name": "tsscmp",
+        "version": "^1.0.6",
+        "purl": "pkg:npm/tsscmp@^1.0.6",
+        "bom-ref": "npm/tsscmp@^1.0.6"
+      },
+      {
+        "type": "library",
+        "name": "p-map",
+        "version": "^4.0.0",
+        "purl": "pkg:npm/p-map@^4.0.0",
+        "bom-ref": "npm/p-map@^4.0.0"
+      },
+      {
+        "type": "library",
+        "name": "archiver",
+        "version": "5.3.2",
+        "purl": "pkg:npm/archiver@5.3.2",
+        "bom-ref": "npm/archiver@5.3.2"
+      },
+      {
+        "type": "library",
+        "name": "dockerode",
+        "version": "^4.0.9",
+        "purl": "pkg:npm/dockerode@^4.0.9",
+        "bom-ref": "npm/dockerode@^4.0.9"
+      },
+      {
+        "type": "library",
+        "name": "minimatch",
+        "version": "^10.2.5",
+        "purl": "pkg:npm/minimatch@^10.2.5",
+        "bom-ref": "npm/minimatch@^10.2.5"
+      },
+      {
+        "type": "library",
+        "name": "multer",
+        "version": "2.2.0",
+        "purl": "pkg:npm/multer@2.2.0",
+        "bom-ref": "npm/multer@2.2.0"
+      },
+      {
+        "type": "library",
+        "name": "p-limit",
+        "version": "^3.1.0",
+        "purl": "pkg:npm/p-limit@^3.1.0",
+        "bom-ref": "npm/p-limit@^3.1.0"
+      },
+      {
+        "type": "library",
+        "name": "send",
+        "version": "^0.19.0",
+        "purl": "pkg:npm/send@^0.19.0",
+        "bom-ref": "npm/send@^0.19.0"
+      },
+      {
+        "type": "library",
+        "name": "tar-fs",
+        "version": "^3.1.1",
+        "purl": "pkg:npm/tar-fs@^3.1.1",
+        "bom-ref": "npm/tar-fs@^3.1.1"
+      },
+      {
+        "type": "library",
+        "name": "workerpool",
+        "version": "^6.1.5",
+        "purl": "pkg:npm/workerpool@^6.1.5",
+        "bom-ref": "npm/workerpool@^6.1.5"
+      },
+      {
+        "type": "library",
+        "name": "@istanbuljs/esm-loader-hook",
+        "version": "^0.3.0",
+        "purl": "pkg:npm/@istanbuljs/esm-loader-hook@^0.3.0",
+        "bom-ref": "npm/@istanbuljs/esm-loader-hook@^0.3.0"
+      },
+      {
+        "type": "library",
+        "name": "form-data",
+        "version": "^4.0.5",
+        "purl": "pkg:npm/form-data@^4.0.5",
+        "bom-ref": "npm/form-data@^4.0.5"
+      },
+      {
+        "type": "library",
+        "name": "nyc",
+        "version": "^17.1.0",
+        "purl": "pkg:npm/nyc@^17.1.0",
+        "bom-ref": "npm/nyc@^17.1.0"
+      },
+      {
+        "type": "library",
+        "name": "yauzl",
+        "version": "^3.4.0",
+        "purl": "pkg:npm/yauzl@^3.4.0",
+        "bom-ref": "npm/yauzl@^3.4.0"
+      },
+      {
+        "type": "library",
+        "name": "acorn",
+        "version": "^7.1.1",
+        "purl": "pkg:npm/acorn@^7.1.1",
+        "bom-ref": "npm/acorn@^7.1.1"
+      },
+      {
+        "type": "library",
+        "name": "request",
+        "version": "2.88.2",
+        "purl": "pkg:npm/request@2.88.2",
+        "bom-ref": "npm/request@2.88.2"
+      },
+      {
+        "type": "library",
+        "name": "zod",
+        "version": "^4.1.8",
+        "purl": "pkg:npm/zod@^4.1.8",
+        "bom-ref": "npm/zod@^4.1.8"
+      },
+      {
+        "type": "library",
+        "name": "zod-validation-error",
+        "version": "^4.0.1",
+        "purl": "pkg:npm/zod-validation-error@^4.0.1",
+        "bom-ref": "npm/zod-validation-error@^4.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@types/express",
+        "version": "4.17.23",
+        "purl": "pkg:npm/@types/express@4.17.23",
+        "bom-ref": "npm/@types/express@4.17.23"
+      },
+      {
+        "type": "library",
+        "name": "ioredis",
+        "version": "~4.27.1",
+        "purl": "pkg:npm/ioredis@~4.27.1",
+        "bom-ref": "npm/ioredis@~4.27.1"
+      },
+      {
+        "type": "library",
+        "name": "core-js",
+        "version": "~3.46.0",
+        "purl": "pkg:npm/core-js@~3.46.0",
+        "bom-ref": "npm/core-js@~3.46.0"
+      },
+      {
+        "type": "library",
+        "name": "check-types",
+        "version": "^5.1.0",
+        "purl": "pkg:npm/check-types@^5.1.0",
+        "bom-ref": "npm/check-types@^5.1.0"
+      },
+      {
+        "type": "library",
+        "name": "path-browserify",
+        "version": "^1.0.1",
+        "purl": "pkg:npm/path-browserify@^1.0.1",
+        "bom-ref": "npm/path-browserify@^1.0.1"
+      },
+      {
+        "type": "library",
+        "name": "utf-8-validate",
+        "version": "^5.0.4",
+        "purl": "pkg:npm/utf-8-validate@^5.0.4",
+        "bom-ref": "npm/utf-8-validate@^5.0.4"
+      },
+      {
+        "type": "library",
+        "name": "@types/check-types",
+        "version": "^7.3.7",
+        "purl": "pkg:npm/@types/check-types@^7.3.7",
+        "bom-ref": "npm/@types/check-types@^7.3.7"
+      },
+      {
+        "type": "library",
+        "name": "@types/lodash",
+        "version": "^4.17.24",
+        "purl": "pkg:npm/@types/lodash@^4.17.24",
+        "bom-ref": "npm/@types/lodash@^4.17.24"
+      },
+      {
+        "type": "library",
+        "name": "@types/path-browserify",
+        "version": "^1.0.3",
+        "purl": "pkg:npm/@types/path-browserify@^1.0.3",
+        "bom-ref": "npm/@types/path-browserify@^1.0.3"
+      },
+      {
+        "type": "library",
+        "name": "@aws-sdk/lib-storage",
+        "version": "^3.994.0",
+        "purl": "pkg:npm/@aws-sdk/lib-storage@^3.994.0",
+        "bom-ref": "npm/@aws-sdk/lib-storage@^3.994.0"
+      },
+      {
+        "type": "library",
+        "name": "@aws-sdk/node-http-handler",
+        "version": "^3.374.0",
+        "purl": "pkg:npm/@aws-sdk/node-http-handler@^3.374.0",
+        "bom-ref": "npm/@aws-sdk/node-http-handler@^3.374.0"
+      },
+      {
+        "type": "library",
+        "name": "@aws-sdk/s3-request-presigner",
+        "version": "^3.994.0",
+        "purl": "pkg:npm/@aws-sdk/s3-request-presigner@^3.994.0",
+        "bom-ref": "npm/@aws-sdk/s3-request-presigner@^3.994.0"
+      },
+      {
+        "type": "library",
+        "name": "fast-crc32c",
+        "version": "overleaf/node-fast-crc32c#aae6b2a4c7a7a159395df9cc6c38dfde702d6f51",
+        "purl": "pkg:npm/fast-crc32c@overleaf/node-fast-crc32c#aae6b2a4c7a7a159395df9cc6c38dfde702d6f51",
+        "bom-ref": "npm/fast-crc32c@overleaf/node-fast-crc32c#aae6b2a4c7a7a159395df9cc6c38dfde702d6f51"
+      },
+      {
+        "type": "library",
+        "name": "@google-cloud/opentelemetry-cloud-trace-exporter",
+        "version": "^3.0.0",
+        "purl": "pkg:npm/@google-cloud/opentelemetry-cloud-trace-exporter@^3.0.0",
+        "bom-ref": "npm/@google-cloud/opentelemetry-cloud-trace-exporter@^3.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@google-cloud/profiler",
+        "version": "^7.0.0",
+        "purl": "pkg:npm/@google-cloud/profiler@^7.0.0",
+        "bom-ref": "npm/@google-cloud/profiler@^7.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@opentelemetry/api",
+        "version": "^1.9.1",
+        "purl": "pkg:npm/@opentelemetry/api@^1.9.1",
+        "bom-ref": "npm/@opentelemetry/api@^1.9.1"
+      },
+      {
+        "type": "library",
+        "name": "@opentelemetry/auto-instrumentations-node",
+        "version": "^0.78.0",
+        "purl": "pkg:npm/@opentelemetry/auto-instrumentations-node@^0.78.0",
+        "bom-ref": "npm/@opentelemetry/auto-instrumentations-node@^0.78.0"
+      },
+      {
+        "type": "library",
+        "name": "@opentelemetry/exporter-trace-otlp-http",
+        "version": "^0.220.0",
+        "purl": "pkg:npm/@opentelemetry/exporter-trace-otlp-http@^0.220.0",
+        "bom-ref": "npm/@opentelemetry/exporter-trace-otlp-http@^0.220.0"
+      },
+      {
+        "type": "library",
+        "name": "@opentelemetry/resources",
+        "version": "^2.9.0",
+        "purl": "pkg:npm/@opentelemetry/resources@^2.9.0",
+        "bom-ref": "npm/@opentelemetry/resources@^2.9.0"
+      },
+      {
+        "type": "library",
+        "name": "@opentelemetry/sdk-node",
+        "version": "^0.220.0",
+        "purl": "pkg:npm/@opentelemetry/sdk-node@^0.220.0",
+        "bom-ref": "npm/@opentelemetry/sdk-node@^0.220.0"
+      },
+      {
+        "type": "library",
+        "name": "@opentelemetry/semantic-conventions",
+        "version": "^1.41.1",
+        "purl": "pkg:npm/@opentelemetry/semantic-conventions@^1.41.1",
+        "bom-ref": "npm/@opentelemetry/semantic-conventions@^1.41.1"
+      },
+      {
+        "type": "library",
+        "name": "compression",
+        "version": "^1.7.4",
+        "purl": "pkg:npm/compression@^1.7.4",
+        "bom-ref": "npm/compression@^1.7.4"
+      },
+      {
+        "type": "library",
+        "name": "prom-client",
+        "version": "^14.1.1",
+        "purl": "pkg:npm/prom-client@^14.1.1",
+        "bom-ref": "npm/prom-client@^14.1.1"
+      },
+      {
+        "type": "library",
+        "name": "yn",
+        "version": "^3.1.1",
+        "purl": "pkg:npm/yn@^3.1.1",
+        "bom-ref": "npm/yn@^3.1.1"
+      },
+      {
+        "type": "library",
+        "name": "@google-cloud/logging-bunyan",
+        "version": "^5.1.0",
+        "purl": "pkg:npm/@google-cloud/logging-bunyan@^5.1.0",
+        "bom-ref": "npm/@google-cloud/logging-bunyan@^5.1.0"
+      },
+      {
+        "type": "library",
+        "name": "@types/node-fetch",
+        "version": "^2.6.13",
+        "purl": "pkg:npm/@types/node-fetch@^2.6.13",
+        "bom-ref": "npm/@types/node-fetch@^2.6.13"
+      },
+      {
+        "type": "library",
+        "name": "selfsigned",
+        "version": "^5.5.0",
+        "purl": "pkg:npm/selfsigned@^5.5.0",
+        "bom-ref": "npm/selfsigned@^5.5.0"
+      },
+      {
+        "type": "library",
+        "name": "@eslint/json",
+        "version": "^2.0.0",
+        "purl": "pkg:npm/@eslint/json@^2.0.0",
+        "bom-ref": "npm/@eslint/json@^2.0.0"
+      },
+      {
+        "type": "library",
+        "name": "cypress-multi-reporters",
+        "version": "^2.0.5",
+        "purl": "pkg:npm/cypress-multi-reporters@^2.0.5",
+        "bom-ref": "npm/cypress-multi-reporters@^2.0.5"
+      }
+    ]
+  },
+  "elapsed_seconds": 7534.25
+}
